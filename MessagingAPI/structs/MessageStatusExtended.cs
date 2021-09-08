@@ -60,6 +60,12 @@ namespace iliveit.MessagingAPI.Structs
         public string DeliveredStatusDescription;
         [JsonProperty("delivered_timestamp")]
         public DateTime DeliveredTimestamp;
+        [JsonProperty("open_status")]
+        public int OpenStatus;
+        [JsonProperty("open_status_description")]
+        public string OpenStatusDescription;
+        [JsonProperty("open_timestamp")]
+        public DateTime OpenTimestamp;
         [JsonProperty("postback_type")]
         public string PostbackType;
         [JsonProperty("network_reference")]
